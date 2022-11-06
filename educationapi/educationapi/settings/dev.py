@@ -118,3 +118,68 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# logging
+SERVER_LOGS_FILE = os.path.join(os.path.dirname(BASE_DIR), 'logs', 'server.log')
+ERROR_LOGS_FILE = os.path.join(os.path.dirname(BASE_DIR), 'logs', 'error.log')
+if not os.path.exists(os.path.join(os.path.dirname(BASE_DIR), 'logs')):
+    os.makedirs(os.path.join(os.path.dirname(BASE_DIR), 'logs'))
+
+STANDARD_LOG_FORMAT = '[%(asctime)s][%(name)s.%(funcName)s():%(lineno)d] [%(levelname)s] %(message)s'
+CONSOLE_LOG_FORMAT = '[%(asctime)s][%(name)s.%(funcName)s():%(lineno)d] [%(levelname)s] %(message)s'
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'standard': {
+            'format': STANDARD_LOG_FORMAT
+        },
+        'console': {
+            'format': CONSOLE_LOG_FORMAT,
+            'datefmt': '%Y-%m-%d %H:%M:%S',
+        },
+        'file': {
+            'format': CONSOLE_LOG_FORMAT,
+            'datefmt': '%Y-%m-%d %H:%M:%S',
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': SERVER_LOGS_FILE,
+            'maxBytes': 1024 * 1024 * 100,  # 100 MB
+            'backupCount': 5,  # 最多备份5个
+            'formatter': 'standard',
+            'encoding': 'utf-8',
+        },
+        'error': {
+            'level': 'ERROR',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': ERROR_LOGS_FILE,
+            'maxBytes': 1024 * 1024 * 100,  # 100 MB
+            'backupCount': 3,  # 最多备份3个
+            'formatter': 'standard',
+            'encoding': 'utf-8',
+        },
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'console',
+        }
+    },
+    'loggers': {
+        # default日志
+        'django': {
+            'handlers': ['console', 'error', 'file'],
+            'level': 'INFO',
+        },
+        # 数据库相关日志
+        'django.db.backends': {
+            'handlers': [],
+            'propagate': True,
+            'level': 'INFO',
+        },
+    }
+}

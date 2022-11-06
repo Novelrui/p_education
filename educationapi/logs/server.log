@@ -1,0 +1,3 @@
+[2022-11-06 14:29:15,193][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 14:29:30,441][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
+[2022-11-06 14:29:31,918][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
