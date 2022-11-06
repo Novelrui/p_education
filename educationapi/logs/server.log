@@ -1,3 +1,92 @@
 [2022-11-06 14:29:15,193][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
 [2022-11-06 14:29:30,441][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
 [2022-11-06 14:29:31,918][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
+[2022-11-06 14:59:19,168][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 14:59:19,606][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 15:00:09,314][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 15:00:10,116][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 15:01:06,024][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 15:04:31,056][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 15:04:44,728][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
+[2022-11-06 15:04:44,770][django.server.log_message():154] [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-11-06 15:04:45,001][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 15:04:45,001][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 15:04:45,001][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 15:17:47,525][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 15:17:48,091][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 15:22:46,258][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 15:23:01,526][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/db/backends/mysql/base.py changed, reloading.
+[2022-11-06 15:23:01,972][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 15:23:43,430][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/db/backends/mysql/base.py changed, reloading.
+[2022-11-06 15:23:43,945][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 15:24:22,452][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/db/backends/mysql/operations.py changed, reloading.
+[2022-11-06 15:24:22,982][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 15:24:31,020][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
+[2022-11-06 15:24:31,084][django.server.log_message():154] [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-11-06 15:24:31,339][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 15:24:31,342][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 15:24:31,343][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 17:42:44,242][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 17:42:47,339][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
+[2022-11-06 17:42:47,378][django.server.log_message():154] [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-11-06 17:42:47,627][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 17:42:47,642][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 17:42:47,647][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 17:45:39,038][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: 'api.educationcity.cn:8000'. You may need to add 'api.educationcity.cn' to ALLOWED_HOSTS.
+[2022-11-06 17:45:39,065][django.request.log_response():222] [WARNING] Bad Request: /
+[2022-11-06 17:45:39,065][django.server.log_message():154] [WARNING] "GET / HTTP/1.1" 400 71789
+[2022-11-06 17:45:39,371][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: 'api.educationcity.cn:8000'. You may need to add 'api.educationcity.cn' to ALLOWED_HOSTS.
+[2022-11-06 17:45:39,401][django.request.log_response():222] [WARNING] Bad Request: /favicon.ico
+[2022-11-06 17:45:39,402][django.server.log_message():154] [WARNING] "GET /favicon.ico HTTP/1.1" 400 71853
+[2022-11-06 17:46:23,383][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 17:46:23,972][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 17:46:26,643][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
+[2022-11-06 17:46:26,685][django.server.log_message():154] [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-11-06 17:46:26,806][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-11-06 17:46:26,807][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-11-06 17:46:26,808][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-11-06 17:46:26,845][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2022-11-06 17:46:26,847][django.server.log_message():154] [WARNING] "GET /favicon.ico HTTP/1.1" 404 1989
+[2022-11-06 17:47:25,078][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
+[2022-11-06 18:33:36,657][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:36:45,667][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:36:46,095][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:36:52,900][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:37:24,002][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:37:24,469][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:44:15,893][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:44:26,055][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:44:33,455][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:44:33,880][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:46:19,449][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:46:20,103][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:46:28,505][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:46:29,149][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:46:52,037][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:47:03,937][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:47:22,698][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:47:23,157][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:47:33,637][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:47:34,194][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:47:37,410][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:47:37,855][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:48:33,774][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:48:34,270][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:48:37,516][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:48:37,950][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:48:53,328][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348
+[2022-11-06 18:48:53,421][django.server.log_message():154] [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-11-06 18:48:53,454][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 18:48:53,457][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 18:48:53,458][django.server.log_message():154] [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2022-11-06 18:49:01,975][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:49:02,500][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:49:24,381][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:49:24,955][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:49:39,625][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:49:40,120][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:50:08,148][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:50:08,600][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:50:15,952][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-06 18:50:16,390][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-06 18:50:43,874][django.server.log_message():154] [INFO] "GET / HTTP/1.1" 200 16348

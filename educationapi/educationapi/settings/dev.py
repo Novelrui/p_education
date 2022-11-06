@@ -25,7 +25,10 @@ SECRET_KEY = '^kapt7uo0_w8bf3tg^-2%k55ae&vhu3)hbw@n*kj&hs7$f23_p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "api.educationcity.cn",
+    "www.educationcity.cn"
+]
 
 
 # Application definition
@@ -37,9 +40,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
 ]
 
+CORS_ALLOW_CREDENTIALS = False
+
+CORS_ORIGIN_WHITELIST = [
+    'http://www.educationcity.cn:8080',
+]
+    
+
+# CORS_ORIGIN_ALLOW_ALL = True
+
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -75,8 +89,12 @@ WSGI_APPLICATION = 'educationapi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'p_education',
+        'PORT':'3306',
+        'HOST':'127.0.0.1',
+        'USER':'p_educate_user',
+        'PASSWORD':'p_educate'
     }
 }
 
@@ -182,4 +200,9 @@ LOGGING = {
             'level': 'INFO',
         },
     }
+}
+
+REST_FRAMEWORK = {
+    #异常处理
+    'EXCEPTION_HANDLER':'educationapi.utils.exceptions.custom_exception_handler',
 }
