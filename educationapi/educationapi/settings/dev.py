@@ -13,7 +13,12 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# BASE_DIR 项目的主应用目录
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# 把apps目录下面所有的子应用设置为可以直接导包，需要把apps设置为默认导包路径
+import sys
+sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 
 
 # Quick-start development settings - unsuitable for production
@@ -25,6 +30,7 @@ SECRET_KEY = '^kapt7uo0_w8bf3tg^-2%k55ae&vhu3)hbw@n*kj&hs7$f23_p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# 允许的域名
 ALLOWED_HOSTS = [
     "api.educationcity.cn",
     "www.educationcity.cn"
@@ -40,9 +46,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # 跨域--中间件
     'corsheaders',
+    'rest_framework',
+
+    # 子应用
+    'home',
 ]
 
+# 跨域
 CORS_ALLOW_CREDENTIALS = False
 
 CORS_ORIGIN_WHITELIST = [
@@ -53,7 +66,9 @@ CORS_ORIGIN_WHITELIST = [
 # CORS_ORIGIN_ALLOW_ALL = True
 
 MIDDLEWARE = [
+    # 跨域--中间件
     'corsheaders.middleware.CorsMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -87,6 +102,7 @@ WSGI_APPLICATION = 'educationapi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# 链接数据库
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -137,7 +153,16 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# logging
+# 设置django的静态文件目录
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
+# 项目中存储上传文件的根目录，注意"uploads"目录需要手动上传否则上传文件时会报错
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
+# 访问上传文件的url地址
+MEDIA_URL = '/media/'
+
+# 日志 logging
 SERVER_LOGS_FILE = os.path.join(os.path.dirname(BASE_DIR), 'logs', 'server.log')
 ERROR_LOGS_FILE = os.path.join(os.path.dirname(BASE_DIR), 'logs', 'error.log')
 if not os.path.exists(os.path.join(os.path.dirname(BASE_DIR), 'logs')):
