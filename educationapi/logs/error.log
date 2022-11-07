@@ -30,3 +30,9 @@ Traceback (most recent call last):
     assert self.queryset is not None, (
 AssertionError: 'ListAPIView' should either include a `queryset` attribute, or override the `get_queryset()` method.
 [2022-11-07 03:35:45,955][django.server.log_message():154] [ERROR] "GET /banner/ HTTP/1.1" 500 110332
+[2022-11-07 04:48:54,743][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 04:48:55,261][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 05:09:41,858][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 05:09:42,448][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 05:13:22,845][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 05:13:23,230][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.

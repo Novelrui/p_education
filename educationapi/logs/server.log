@@ -194,3 +194,285 @@ AssertionError: 'ListAPIView' should either include a `queryset` attribute, or o
 [2022-11-07 03:38:01,813][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/urls.py changed, reloading.
 [2022-11-07 03:38:02,303][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
 [2022-11-07 03:38:05,552][django.server.log_message():154] [INFO] "GET /banner/ HTTP/1.1" 200 5192
+[2022-11-07 03:45:28,497][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/views.py changed, reloading.
+[2022-11-07 03:45:29,015][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:46:26,347][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/views.py changed, reloading.
+[2022-11-07 03:46:27,284][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:48:13,369][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/views.py changed, reloading.
+[2022-11-07 03:48:13,849][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:49:13,199][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/views.py changed, reloading.
+[2022-11-07 03:49:13,687][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:11:51,482][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:13:07,024][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:13:43,870][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:14:09,116][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:14:41,981][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:15:01,330][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:15:25,281][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:16:05,086][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:17:48,079][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:20:18,455][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:21:42,680][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:23:16,919][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:23:42,210][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:24:28,771][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:25:32,139][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:25:44,608][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:30:39,689][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:31:37,558][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:33:32,910][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:34:32,843][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:35:54,963][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:39:36,850][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:40:08,423][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:40:22,980][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:46:35,191][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:46:58,149][django.utils.autoreload.run_with_reloader():677] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:48:05,116][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:48:22,374][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/db/backends/mysql/base.py changed, reloading.
+[2022-11-07 04:48:23,333][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:48:48,543][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/db/backends/mysql/operations.py changed, reloading.
+[2022-11-07 04:48:49,137][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 04:48:54,743][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 04:48:54,824][django.request.log_response():222] [WARNING] Bad Request: /
+[2022-11-07 04:48:54,826][django.server.log_message():154] [WARNING] "GET / HTTP/1.1" 400 73751
+[2022-11-07 04:48:55,261][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 04:48:55,312][django.request.log_response():222] [WARNING] Bad Request: /favicon.ico
+[2022-11-07 04:48:55,314][django.server.log_message():154] [WARNING] "GET /favicon.ico HTTP/1.1" 400 73678
+[2022-11-07 04:49:16,738][django.request.log_response():222] [WARNING] Not Found: /
+[2022-11-07 04:49:16,739][django.server.log_message():154] [WARNING] "GET / HTTP/1.1" 404 2216
+[2022-11-07 04:49:43,340][django.server.log_message():154] [INFO] "GET /banner/ HTTP/1.1" 200 5192
+[2022-11-07 05:02:29,763][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:07:11,027][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/xadmin/plugins/importexport.py changed, reloading.
+[2022-11-07 05:07:12,128][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:07:56,849][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/xadmin/plugins/importexport.py changed, reloading.
+[2022-11-07 05:07:57,952][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:08:55,834][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/xadmin/plugins/importexport.py changed, reloading.
+[2022-11-07 05:08:56,685][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:09:35,944][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/db/backends/mysql/operations.py changed, reloading.
+[2022-11-07 05:09:37,310][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:09:41,858][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 05:09:41,931][django.request.log_response():222] [WARNING] Bad Request: /
+[2022-11-07 05:09:41,932][django.server.log_message():154] [WARNING] "GET / HTTP/1.1" 400 74920
+[2022-11-07 05:09:42,448][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 05:09:42,496][django.request.log_response():222] [WARNING] Bad Request: /favicon.ico
+[2022-11-07 05:09:42,498][django.server.log_message():154] [WARNING] "GET /favicon.ico HTTP/1.1" 400 74847
+[2022-11-07 05:09:45,064][django.server.log_message():154] [INFO] "GET /banner/ HTTP/1.1" 200 5192
+[2022-11-07 05:09:45,104][django.server.log_message():154] [INFO] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[2022-11-07 05:09:45,122][django.server.log_message():154] [INFO] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[2022-11-07 05:09:45,123][django.server.log_message():154] [INFO] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[2022-11-07 05:09:45,127][django.server.log_message():154] [INFO] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[2022-11-07 05:09:45,130][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+[2022-11-07 05:09:45,133][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2022-11-07 05:09:45,134][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2022-11-07 05:09:45,134][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2022-11-07 05:09:45,141][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2022-11-07 05:09:45,141][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2022-11-07 05:09:45,167][django.server.log_message():154] [INFO] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[2022-11-07 05:13:13,323][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:13:22,845][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 05:13:22,898][django.request.log_response():222] [WARNING] Bad Request: /
+[2022-11-07 05:13:22,899][django.server.log_message():154] [WARNING] "GET / HTTP/1.1" 400 74920
+[2022-11-07 05:13:23,230][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 05:13:23,264][django.request.log_response():222] [WARNING] Bad Request: /favicon.ico
+[2022-11-07 05:13:23,265][django.server.log_message():154] [WARNING] "GET /favicon.ico HTTP/1.1" 400 74847
+[2022-11-07 05:13:33,186][django.request.log_response():222] [WARNING] Not Found: /
+[2022-11-07 05:13:33,187][django.server.log_message():154] [WARNING] "GET / HTTP/1.1" 404 2216
+[2022-11-07 05:13:38,010][django.server.log_message():154] [INFO] "GET /banner/ HTTP/1.1" 200 5192
+[2022-11-07 05:13:56,716][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/urls.py changed, reloading.
+[2022-11-07 05:13:57,479][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:15:38,610][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/urls.py changed, reloading.
+[2022-11-07 05:15:39,337][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:16:03,588][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/urls.py changed, reloading.
+[2022-11-07 05:16:04,278][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:16:13,973][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/urls.py changed, reloading.
+[2022-11-07 05:16:14,680][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:16:55,101][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:17:02,598][django.server.log_message():154] [INFO] "GET /xadmin/ HTTP/1.1" 200 4151
+[2022-11-07 05:17:02,657][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+[2022-11-07 05:17:02,677][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+[2022-11-07 05:17:02,679][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+[2022-11-07 05:17:02,679][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+[2022-11-07 05:17:02,680][django.server.log_message():154] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+[2022-11-07 05:17:02,681][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+[2022-11-07 05:17:02,682][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+[2022-11-07 05:17:02,714][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+[2022-11-07 05:17:02,733][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+[2022-11-07 05:17:02,734][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+[2022-11-07 05:17:02,752][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+[2022-11-07 05:17:02,772][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 4158
+[2022-11-07 05:17:02,774][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+[2022-11-07 05:17:02,776][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+[2022-11-07 05:17:02,777][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+[2022-11-07 05:17:02,889][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2022-11-07 05:19:14,798][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:19:19,179][django.server.log_message():154] [INFO] "POST /xadmin/ HTTP/1.1" 302 0
+[2022-11-07 05:19:19,377][django.server.log_message():154] [INFO] "GET /xadmin/ HTTP/1.1" 200 9819
+[2022-11-07 05:19:19,472][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[2022-11-07 05:19:19,501][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+[2022-11-07 05:19:19,502][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+[2022-11-07 05:19:19,504][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+[2022-11-07 05:19:19,516][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[2022-11-07 05:19:19,517][django.server.log_message():154] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[2022-11-07 05:19:19,543][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[2022-11-07 05:19:19,545][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[2022-11-07 05:19:19,545][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[2022-11-07 05:19:19,546][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2022-11-07 05:19:19,549][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[2022-11-07 05:19:19,553][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:19:19,570][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[2022-11-07 05:19:19,596][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[2022-11-07 05:19:19,607][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[2022-11-07 05:19:19,610][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[2022-11-07 05:19:19,611][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[2022-11-07 05:19:19,611][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[2022-11-07 05:19:19,704][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+[2022-11-07 05:19:28,937][django.server.log_message():154] [INFO] "GET /xadmin/xadmin/log/ HTTP/1.1" 200 25636
+[2022-11-07 05:19:28,976][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+[2022-11-07 05:19:28,981][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+[2022-11-07 05:19:28,990][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+[2022-11-07 05:19:28,991][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+[2022-11-07 05:19:29,006][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:19:29,008][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+[2022-11-07 05:19:29,016][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+[2022-11-07 05:19:29,020][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+[2022-11-07 05:19:29,021][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2022-11-07 05:19:29,033][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+[2022-11-07 05:19:29,035][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2022-11-07 05:19:29,036][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2022-11-07 05:19:29,037][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+[2022-11-07 05:19:29,057][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+[2022-11-07 05:19:29,062][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2022-11-07 05:19:29,072][django.server.log_message():154] [WARNING] "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1877
+[2022-11-07 05:19:29,088][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+[2022-11-07 05:19:30,774][django.server.log_message():154] [INFO] "GET /xadmin/ HTTP/1.1" 200 9819
+[2022-11-07 05:19:30,821][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:19:34,237][django.server.log_message():154] [INFO] "GET /xadmin/auth/user/ HTTP/1.1" 200 29374
+[2022-11-07 05:19:34,275][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2022-11-07 05:19:34,304][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:29:12,697][django.server.log_message():154] [INFO] "GET /xadmin/auth/user/ HTTP/1.1" 200 29374
+[2022-11-07 05:29:12,736][django.server.log_message():154] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[2022-11-07 05:29:12,737][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[2022-11-07 05:29:12,763][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[2022-11-07 05:29:12,771][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[2022-11-07 05:29:12,787][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:29:12,789][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[2022-11-07 05:29:12,791][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[2022-11-07 05:29:12,796][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,797][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[2022-11-07 05:29:12,798][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,802][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,803][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,823][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,859][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,861][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,862][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,863][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,864][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,874][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,949][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,949][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[2022-11-07 05:29:12,951][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[2022-11-07 05:29:14,948][django.server.log_message():154] [INFO] "GET /xadmin/auth/user/ HTTP/1.1" 200 29374
+[2022-11-07 05:29:14,992][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:29:15,848][django.server.log_message():154] [INFO] "GET /xadmin/auth/user/ HTTP/1.1" 200 29374
+[2022-11-07 05:29:15,888][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:29:23,891][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:29:28,360][django.server.log_message():154] [INFO] "GET /xadmin/auth/user/ HTTP/1.1" 200 33915
+[2022-11-07 05:29:28,385][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+[2022-11-07 05:29:28,387][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:29:28,389][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+[2022-11-07 05:30:11,449][django.server.log_message():154] [INFO] "GET /xadmin/home/banner/ HTTP/1.1" 200 24043
+[2022-11-07 05:30:11,492][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:30:28,553][django.server.log_message():154] [INFO] "GET /xadmin/home/banner/add/ HTTP/1.1" 200 18098
+[2022-11-07 05:30:28,585][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[2022-11-07 05:30:28,600][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:31:09,641][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/models.py changed, reloading.
+[2022-11-07 05:31:10,349][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:32:28,718][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-07 05:32:29,485][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:32:43,405][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
+[2022-11-07 05:32:44,175][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:34:33,695][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/models.py changed, reloading.
+[2022-11-07 05:34:34,393][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:36:06,172][django.server.log_message():154] [INFO] "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19800
+[2022-11-07 05:36:06,206][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[2022-11-07 05:36:06,210][django.server.log_message():154] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[2022-11-07 05:36:06,237][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[2022-11-07 05:36:06,239][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[2022-11-07 05:36:06,239][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[2022-11-07 05:36:06,253][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+[2022-11-07 05:36:06,258][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[2022-11-07 05:36:06,261][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:36:06,263][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[2022-11-07 05:36:06,264][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+[2022-11-07 05:36:06,265][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+[2022-11-07 05:36:06,269][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,282][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,307][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,309][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,332][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,333][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,334][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,335][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,358][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,358][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,419][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[2022-11-07 05:36:06,420][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[2022-11-07 05:37:53,940][django.server.log_message():154] [INFO] "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+[2022-11-07 05:37:54,662][django.server.log_message():154] [INFO] "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+[2022-11-07 05:37:54,736][django.server.log_message():154] [INFO] "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20443
+[2022-11-07 05:37:54,832][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:38:40,780][django.server.log_message():154] [INFO] "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+[2022-11-07 05:38:41,034][django.server.log_message():154] [INFO] "GET /xadmin/home/banner/ HTTP/1.1" 200 29252
+[2022-11-07 05:38:41,127][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+[2022-11-07 05:38:41,139][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[2022-11-07 05:38:41,140][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[2022-11-07 05:38:41,143][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:38:41,143][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[2022-11-07 05:38:41,144][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[2022-11-07 05:40:10,415][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/models.py changed, reloading.
+[2022-11-07 05:40:11,199][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:40:55,859][django.server.log_message():154] [INFO] "GET /banner/ HTTP/1.1" 200 6352
+[2022-11-07 05:44:13,005][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/__init__.py changed, reloading.
+[2022-11-07 05:44:13,981][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:44:21,183][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/__init__.py changed, reloading.
+[2022-11-07 05:44:21,791][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:44:35,656][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/__init__.py changed, reloading.
+[2022-11-07 05:44:36,933][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:44:39,534][django.server.log_message():154] [INFO] "GET /xadmin/home/banner/ HTTP/1.1" 200 28954
+[2022-11-07 05:44:39,579][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[2022-11-07 05:44:39,580][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[2022-11-07 05:44:39,584][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:44:39,585][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[2022-11-07 05:44:39,585][django.server.log_message():154] [INFO] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[2022-11-07 05:44:39,591][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[2022-11-07 05:44:39,601][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[2022-11-07 05:44:39,601][django.server.log_message():154] [INFO] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[2022-11-07 05:44:39,602][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,603][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,603][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,634][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,661][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,661][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,662][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,664][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,665][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,680][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,726][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,729][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+[2022-11-07 05:44:39,729][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,731][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,734][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[2022-11-07 05:44:39,734][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[2022-11-07 05:46:05,077][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 05:46:10,297][django.server.log_message():154] [INFO] "GET /xadmin/home/banner/ HTTP/1.1" 200 28954
+[2022-11-07 05:46:10,349][django.server.log_message():154] [INFO] "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+[2022-11-07 05:46:10,350][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+[2022-11-07 05:46:10,351][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+[2022-11-07 05:46:10,351][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+[2022-11-07 05:46:10,352][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[2022-11-07 05:46:10,352][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+[2022-11-07 05:46:10,362][django.server.log_message():154] [INFO] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+[2022-11-07 05:46:10,446][django.server.log_message():154] [INFO] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+[2022-11-07 05:46:14,588][django.server.log_message():154] [INFO] "GET /banner/ HTTP/1.1" 200 6352

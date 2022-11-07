@@ -49,7 +49,13 @@ INSTALLED_APPS = [
 
     # 跨域--中间件
     'corsheaders',
+    # api
     'rest_framework',
+    # xadmin配置
+    'xadmin',
+    'crispy_forms',
+    'reversion',
+    
 
     # 子应用
     'home',
@@ -137,9 +143,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'
 
 TIME_ZONE = 'UTC'
+# TIME_ZONE = 'Asia/shanghai'
 
 USE_I18N = True
 

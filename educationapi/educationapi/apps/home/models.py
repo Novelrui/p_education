@@ -6,7 +6,8 @@ class Banner(models.Model):
   # 模型字段
   title = models.CharField(max_length = 500, verbose_name = "adtitle")
   link = models.CharField(max_length = 500, verbose_name = "adlinks")
-  image_url = models.CharField(max_length = 255, verbose_name = "picture")
+  # upload_to设置上传文件的保存目录
+  image_url = models.ImageField(upload_to="banner",null=True, blank=True, max_length = 255, verbose_name = "picture")
   remark = models.TextField(verbose_name = "tips")
   is_show = models.BooleanField(default=False, verbose_name = "show or not show")
   orders = models.IntegerField(default=1, verbose_name = "sort")
