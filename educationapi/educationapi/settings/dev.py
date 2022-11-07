@@ -167,7 +167,7 @@ STATICFILES_DIRS = [
 ]
 # 项目中存储上传文件的根目录，注意"uploads"目录需要手动上传否则上传文件时会报错
 MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
-# 访问上传文件的url地址
+# 访问上传文件的url地址前缀
 MEDIA_URL = '/media/'
 
 # 日志 logging

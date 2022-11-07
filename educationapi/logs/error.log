@@ -36,3 +36,9 @@ AssertionError: 'ListAPIView' should either include a `queryset` attribute, or o
 [2022-11-07 05:09:42,448][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
 [2022-11-07 05:13:22,845][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
 [2022-11-07 05:13:23,230][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 07:08:18,463][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 07:08:18,832][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 07:28:52,620][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 07:28:53,177][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 08:02:56,854][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[2022-11-07 08:02:57,251][django.security.DisallowedHost.response_for_exception():75] [ERROR] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.

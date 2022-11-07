@@ -31,6 +31,7 @@ xversion.register_models()
 urlpatterns = [
     # path('admin/', admin.site.urls),
     path(r'xadmin/', xadmin.site.urls),
-    re_path(r'admin/(?P<path>.*)', serve, {"document_root":settings.MEDIA_ROOT}),
+    # media后面是用户上传的文件（未知） django 项目中转换上传文件的url地址 
+    re_path(r'media/(?P<path>.*)', serve, {"document_root":settings.MEDIA_ROOT}),
     path('', include('home.urls')), # 指向业务（apps）路由
 ]
