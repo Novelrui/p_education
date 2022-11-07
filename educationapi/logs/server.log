@@ -131,3 +131,66 @@
 [2022-11-07 02:55:34,257][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
 [2022-11-07 02:56:08,685][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/settings/dev.py changed, reloading.
 [2022-11-07 02:56:09,216][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:01:31,887][django.server.log_message():154] [INFO] "GET /xadmin HTTP/1.1" 301 0
+[2022-11-07 03:01:31,898][django.request.log_response():222] [WARNING] Not Found: /xadmin/
+[2022-11-07 03:01:31,899][django.server.log_message():154] [WARNING] "GET /xadmin/ HTTP/1.1" 404 1820
+[2022-11-07 03:04:04,310][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/models.py changed, reloading.
+[2022-11-07 03:04:04,789][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:07:26,556][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/models.py changed, reloading.
+[2022-11-07 03:07:27,372][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:08:25,016][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/models.py changed, reloading.
+[2022-11-07 03:08:25,476][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:13:38,272][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/models.py changed, reloading.
+[2022-11-07 03:13:38,715][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:14:51,466][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/models.py changed, reloading.
+[2022-11-07 03:14:51,891][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:15:41,477][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/models.py changed, reloading.
+[2022-11-07 03:35:21,427][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:35:27,847][django.request.log_response():222] [WARNING] Not Found: /xadmin/
+[2022-11-07 03:35:27,848][django.server.log_message():154] [WARNING] "GET /xadmin/ HTTP/1.1" 404 1820
+[2022-11-07 03:35:45,868][django.server.log_message():154] [INFO] "GET /banner HTTP/1.1" 301 0
+[2022-11-07 03:35:45,952][django.request.log_response():222] [ERROR] Internal Server Error: /banner/
+Traceback (most recent call last):
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/noel/anaconda3/envs/p_education/lib/python3.8/site-packages/rest_framework/generics.py", line 63, in get_queryset
+    assert self.queryset is not None, (
+AssertionError: 'ListAPIView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+[2022-11-07 03:35:45,955][django.server.log_message():154] [ERROR] "GET /banner/ HTTP/1.1" 500 110332
+[2022-11-07 03:37:00,649][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/apps/home/urls.py changed, reloading.
+[2022-11-07 03:37:01,146][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:37:07,894][django.server.log_message():154] [INFO] "GET /banner/ HTTP/1.1" 200 5192
+[2022-11-07 03:37:07,960][django.server.log_message():154] [INFO] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[2022-11-07 03:37:07,968][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[2022-11-07 03:37:07,986][django.server.log_message():154] [INFO] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2022-11-07 03:37:07,999][django.server.log_message():154] [INFO] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[2022-11-07 03:37:08,024][django.server.log_message():154] [INFO] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2022-11-07 03:37:08,032][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2022-11-07 03:37:08,050][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2022-11-07 03:37:08,080][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[2022-11-07 03:37:08,099][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+[2022-11-07 03:37:08,126][django.server.log_message():154] [INFO] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2022-11-07 03:37:08,152][django.server.log_message():154] [INFO] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+[2022-11-07 03:38:01,813][django.utils.autoreload.trigger_reload():217] [INFO] /home/noel/Noel_Workspace/django_backend/p_education/educationapi/educationapi/urls.py changed, reloading.
+[2022-11-07 03:38:02,303][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2022-11-07 03:38:05,552][django.server.log_message():154] [INFO] "GET /banner/ HTTP/1.1" 200 5192
